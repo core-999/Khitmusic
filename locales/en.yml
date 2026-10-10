@@ -537,7 +537,7 @@ playmode_restricted: "🚫 Play mode is enabled. Only admins and authorized user
 # 🏓 Ping messages
 ping_start: "<blockquote>🏓 <b><u>ᴘɪηɢɪηɢ...</u></b>\n\n<i>ᴄʜєᴄᴋɪηɢ ʟᴧᴛєηᴄʏ &amp; sʏsᴛєᴍ sᴛᴧᴛs</i></blockquote>"
 ping_result: |
-  <blockquote><a href="https://yukiapi.site/file/ICyh3CVm">🏓</a> <b><u>ᴘσηɢ!</u></b> ➜ <code>{latency}ms</code></blockquote>
+  <blockquote><a href="https://files.catbox.moe/cal5f4.jpg">🏓</a> <b><u>ᴘσηɢ!</u></b> ➜ <code>{latency}ms</code></blockquote>
   <blockquote>📊 <b><u>sʏsᴛєᴍ sᴛᴧᴛs</u>:</b>
 
   • ⏳ <b>ᴜᴘᴛɪᴍє:</b> <code>{uptime}</code>
@@ -923,7 +923,7 @@ spt_result: |
   Upload: <code>{ul_mbps} Mbps</code>
 
 start_private: |
-  <blockquote><a href="https://yukiapi.site/file/iCggpP12">👋</a> <b>ʜєʏ {user}</b>, <i>ᴍʏ ηᴧᴍє ɪs</i> {bot} 🎶
+  <blockquote><a href="https://files.catbox.moe/cal5f4.jpg">👋</a> <b>ʜєʏ {user}</b>, <i>ᴍʏ ηᴧᴍє ɪs</i> {bot} 🎶
 
   ✨ <b><u>ᴧʙσυᴛ ᴍє</u>:</b>
   • ᴧ ᴘσᴡєꝛғᴜʟ & ʜɪɢʜ-ǫᴜᴧʟɪᴛʏ ᴛєʟєɢꝛᴧᴍ ᴍᴜsɪᴄ sᴛꝛєᴧᴍɪηɢ ʙσᴛ.
@@ -1046,7 +1046,7 @@ help_admin: |
   💡 <b>ᴛɪᴘ:</b> <tg-spoiler>ᴜsᴇ /cplay &lt;song&gt; ᴛᴏ sᴛʀᴇᴀᴍ ɪɴ ᴄʜᴀɴɴᴇʟ</tg-spoiler></blockquote>
 
 help_public: |
-  <blockquote><a href="https://yukiapi.site/file/awTXo6DL">🌍</a> <b><u>ᴘᴜʙʟɪᴄ ᴄσϻϻᴧηᴅs</u></b>
+  <blockquote><a href="https://files.catbox.moe/cal5f4.jpg">🌍</a> <b><u>ᴘᴜʙʟɪᴄ ᴄσϻϻᴧηᴅs</u></b>
 
   <i>ғєᴧᴛᴜꝛєs ᴧᴠᴧɪʟᴧʙʟє ғσꝛ ᴧʟʟ ɢꝛσυᴘ ᴍєᴍʙєꝛs.</i>
 
