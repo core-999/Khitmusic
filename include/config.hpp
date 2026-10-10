@@ -53,8 +53,8 @@ struct AppConfig {
     int64_t log_group_id{0};
     std::string string_session;
     std::string session_type{"pyrogram"};
-    std::string support_chat{"https://t.me/Z0iiw"};
-    std::string support_channel{"https://t.me/Z0iiw"};
+    std::string support_chat{"https://t.me/myanmar_music_bot2027"};
+    std::string support_channel{"https://t.me/myanmarbot_music"};
     std::string default_lang{"en"};
     int duration_limit{4200};
     int max_queue_size{24};
