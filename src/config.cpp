@@ -104,8 +104,8 @@ AppConfig ConfigLoader::Load(const std::string& env_path) {
 
     cfg.string_session = GetEnvVar("STRING_SESSIONS", GetEnvVar("STRING_SESSION", ""));
     cfg.session_type = GetEnvVar("SESSION_TYPE", "pyrogram");
-    cfg.support_chat = GetEnvVar("SUPPORT_CHAT", "https://t.me/Z0iiw");
-    cfg.support_channel = GetEnvVar("SUPPORT_CHANNEL", "https://t.me/Z0iiw");
+    cfg.support_chat = GetEnvVar("SUPPORT_CHAT", "https://t.me/myanmar_music_bot2027");
+    cfg.support_channel = GetEnvVar("SUPPORT_CHANNEL", "https://t.me/myanmarbot_music");
     cfg.default_lang = GetEnvVar("DEFAULT_LANG", "en");
 
     std::string dur_str = GetEnvVar("DURATION_LIMIT", "4200");
@@ -120,9 +120,9 @@ AppConfig ConfigLoader::Load(const std::string& env_path) {
     cfg.yuki_api_url = GetEnvVar("YUKI_API_URL", GetEnvVar("API_URL", "https://music.yukiapi.site"));
     cfg.yuki_api_key = GetEnvVar("YUKI_API_KEY", GetEnvVar("API_KEY", "yuki_96fcd2d09a8d4f1e36896505bd6ebda8"));
     cfg.music_api_url = GetEnvVar("MUSIC_API_URL", GetEnvVar("STREAM_API_URL", "https://music.yukiapi.site/stream/{VIDEO_ID}?key=yuki_96fcd2d09a8d4f1e36896505bd6ebda8"));
-    cfg.ping_img_url = GetEnvVar("PING_IMG_URL", "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg");
+    cfg.ping_img_url = GetEnvVar("PING_IMG_URL", "https://files.catbox.moe/cal5f4.jpg");
 
-    std::string start_img = GetEnvVar("START_IMAGES", GetEnvVar("START_IMG_URL", ""));
+    std::string start_img = GetEnvVar("START_IMAGES", GetEnvVar("START_IMG_URL", "https://files.catbox.moe/cal5f4.jpg"));
     if (!start_img.empty()) {
         cfg.start_images.push_back(start_img);
     }
