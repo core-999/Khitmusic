@@ -12,6 +12,7 @@ RUN apt-get update && \
         libcurl4-openssl-dev \
         libyaml-cpp-dev \
         zlib1g-dev \
+        nlohmann-json-dev \
         curl \
         unzip \
         ca-certificates && \
