@@ -4,23 +4,23 @@ name: "🇺🇸 English"
 CONFIRM_RESUME_BTN: "▶️ ꝛєsᴜᴍє"
 CONFIRM_UNMUTE_BTN: "🔊 ᴜηᴍᴜᴛє"
 CONFIRM_STOP_BTN: "⏹️ sᴛσᴘ"
-ADD_ME_BTN: "⚡ ᴧᴅᴅ ᴍє ᴛσ ʏσυꝛ ɢꝛσυᴘ"
-BROADCAST_CANCEL_BTN: "🚫 ᴄᴧηᴄєʟ ʙꝛσᴧᴅᴄᴧsᴛ"
-CLOSE_BTN: "🗑 ᴄʟσsє"
-DOWNLOAD_CANCEL_BTN: "🚦 ᴄᴧηᴄєʟ ᴅσᴡηʟσᴧᴅ"
-GC_HELP_BTN: "📒 ᴄσϻϻᴧηᴅs"
+ADD_ME_BTN: " ᴧᴅᴅ ᴍє ᴛσ ʏσυꝛ ɢꝛσυᴘ"
+BROADCAST_CANCEL_BTN: " ᴄᴧηᴄєʟ ʙꝛσᴧᴅᴄᴧsᴛ"
+CLOSE_BTN: "ᴄʟσsє"
+DOWNLOAD_CANCEL_BTN: " ᴄᴧηᴄєʟ ᴅσᴡηʟσᴧᴅ"
+GC_HELP_BTN: " ᴄσϻϻᴧηᴅs"
 
-START_HELP_BTN: "❓ ʜєʟᴘ & ᴄσϻϻᴧηᴅs"
+START_HELP_BTN: " ʜєʟᴘ & ᴄσϻϻᴧηᴅs"
 
-UPDATES_BTN: "📢 ᴜᴘᴅᴧᴛєs"
-SUPPORT_BTN: "💬 sᴜᴘᴘσꝛᴛ"
+UPDATES_BTN: " ᴜᴘᴅᴧᴛєs"
+SUPPORT_BTN: "sᴜᴘᴘσꝛᴛ"
 
-HELP_ADMINS_BTN: "🛠 ᴧᴅϻɪηs"
-HELP_PUBLIC_BTN: "🌍 ᴘᴜʙʟɪᴄ"
-HELP_OWNER_BTN: "👑 σᴡηєꝛ"
-HELP_SUDOERS_BTN: "⚡ sᴜᴅσєꝛs"
+HELP_ADMINS_BTN: " ᴧᴅϻɪηs"
+HELP_PUBLIC_BTN: " ᴘᴜʙʟɪᴄ"
+HELP_OWNER_BTN: " σᴡηєꝛ"
+HELP_SUDOERS_BTN: " sᴜᴅσєꝛs"
 
-BACK_BTN: "⬅️ ʙᴧᴄᴋ"
+BACK_BTN: " ʙᴧᴄᴋ"
 
 # basically this string used in /command [bool]
 invalid_bool: "⚠️ <b>Invalid value.</b>\nUse 'enable' or 'disable'."
@@ -315,7 +315,7 @@ flood_minutes: "⏳ Please wait {duration} minutes before using this command aga
 
 help_private_only: "🤖 Hi! For bot help and commands, please DM me directly — I'm more responsive in private chats!"
 help_main: |
-  <blockquote><a href="https://yukiapi.site/file/awTXo6DL">📚</a> <b><u>ʜєʟᴘ &amp; ᴄσϻϻᴧηᴅs ᴍєηᴜ</u></b>
+  <blockquote><a href="https://files.catbox.moe/cal5f4.jpg">📚</a> <b><u>ʜєʟᴘ &amp; ᴄσϻϻᴧηᴅs ᴍєηᴜ</u></b>
 
   ✨ <i>ᴄʟɪᴄᴋ ᴛʜє ᴄᴧᴛєɢσꝛʏ ʙᴜᴛᴛσηs ʙєʟσᴡ ᴛσ єxᴘʟσꝛє ᴧʟʟ ᴧᴠᴧɪʟᴧʙʟє ᴄσϻϻᴧηᴅs:</i>
 
