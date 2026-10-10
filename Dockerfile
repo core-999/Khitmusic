@@ -12,13 +12,16 @@ RUN apt-get update && \
         libcurl4-openssl-dev \
         libyaml-cpp-dev \
         zlib1g-dev \
-        nlohmann-json-dev \
         curl \
         unzip \
         ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
 COPY . .
+
+# တိုက်ရိုက် Download ဆွဲပြီး include/nlohmann/json.hpp ထဲသို့ ထည့်မည်
+RUN mkdir -p include/nlohmann && \
+    curl -sSL "https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp" -o include/nlohmann/json.hpp
 
 RUN ARCH=$(uname -m) && \
     mkdir -p vendor/ntgcalls/lib vendor/ntgcalls/include bridge/ntgcalls && \
