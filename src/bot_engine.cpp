@@ -143,8 +143,8 @@ std::string BotEngine::GetDiskUsageString() {
 nlohmann::json BotEngine::MakeStartMarkup(int64_t chat_id) {
     auto& lm = LocalizationManager::Instance();
     std::string bot_user = tg_->GetBotUsername();
-    std::string support_channel = config_.support_channel.empty() ? "https://t.me/Z0iiw" : config_.support_channel;
-    std::string support_chat = config_.support_chat.empty() ? "https://t.me/Z0iiw" : config_.support_chat;
+    std::string support_channel = config_.support_channel.empty() ? "https://t.me/myanmarbot_music" : config_.support_channel;
+    std::string support_chat = config_.support_chat.empty() ? "https://t.me/myanmar_music_bot2027" : config_.support_chat;
 
     return {
         {"inline_keyboard", {
@@ -254,9 +254,6 @@ nlohmann::json BotEngine::MakePlayerMarkup(int64_t chat_id, int current_pos, int
             },
             {
                 {{"text", lm.F(chat_id, "CLOSE_BTN")}, {"callback_data", "close"}}
-            },
-            {
-                {{"text", "✨ ᴊσɪη ꝛσσϻ ✨"}, {"url", "https://t.me/Dollbymusicbot/room?startapp=" + std::to_string(chat_id)}}
             }
         }}
     };
@@ -332,7 +329,7 @@ nlohmann::json BotEngine::MakeSettingsMarkup(int64_t chat_id) {
                 {{"text", thumb_status}, {"callback_data", "set:nothumb"}}
             },
             {
-                {{"text", "📻 Autoplay"}, {"callback_data", "info:autoplay"}},
+                {{"text", "Autoplay💕"}, {"callback_data", "info:autoplay"}},
                 {{"text", autoplay_status}, {"callback_data", "set:autoplay"}}
             },
             {
@@ -350,12 +347,7 @@ nlohmann::json BotEngine::MakeLanguageMarkup() {
     return {
         {"inline_keyboard", {
             {
-                {{"text", "🇺🇸 English"}, {"callback_data", "lang:en"}},
-                {{"text", "🇮🇳 हिन्दी"}, {"callback_data", "lang:hi"}}
-            },
-            {
-                {{"text", "🇸🇦 العربية"}, {"callback_data", "lang:ar"}},
-                {{"text", "🇹🇷 Türkçe"}, {"callback_data", "lang:tr"}}
+                {{"text", "🇺🇸 English"}, {"callback_data", "lang:en"}}
             },
             {
                 {{"text", "🔒 Close"}, {"callback_data", "close"}}
@@ -591,7 +583,7 @@ void BotEngine::HandleStart(const TgMessage& msg) {
     } else {
         std::string text = lm.F(msg.chat.id, "start_group");
         if (text == "[start_group]" || text.empty()) {
-            text = "<b>💫 I’m here!</b> Try a command… if you think you can handle me 😉";
+            text = "<b>💕 I’m here!</b> Try a command… if you think you can handle me 💞";
         }
         tg_->SendMessage(msg.chat.id, text, MakeStartMarkup(msg.chat.id));
     }
@@ -683,7 +675,7 @@ void BotEngine::HandlePlayer(const TgMessage& msg) {
         {"by", cur->requester_name}
     });
     if (now_playing == "[stream_now_playing]" || now_playing.empty()) {
-        now_playing = "<blockquote>🎵 <b>Now Playing:</b> <a href=\"" + cur->url + "\">" + cur->title + "</a>\n⏱ <b>Duration:</b> <code>" + cur->duration + "</code> | 👤 <b>Requested by:</b> " + cur->requester_name + "</blockquote>";
+        now_playing = "<blockquote>💿 <b>Now Playing:</b> <a href=\"" + cur->url + "\">" + cur->title + "</a>\n <b>Duration:</b> <code>" + cur->duration + "</code> |  <b>Requested by:</b> " + cur->requester_name + "</blockquote>";
     }
     tg_->SendMessage(msg.chat.id, now_playing, MakePlayerMarkup(msg.chat.id, pos, total));
 }
@@ -782,7 +774,7 @@ void BotEngine::HandlePlay(const TgMessage& msg, const std::string& query) {
                     {"inline_keyboard", {
                         {
                             {{"text", "➕ Add Assistant (@" + ass_user + ")", "url", "https://t.me/" + ass_user + "?startgroup=true"}},
-                            {{"text", "💬 Support", "url", "https://t.me/Z0iiw"}}
+                            {{"text", "💬 Support", "url", "https://t.me/myanmar_music_bot2027"}}
                         }
                     }}
                 };
@@ -879,7 +871,7 @@ void BotEngine::HandleFPlay(const TgMessage& msg, const std::string& query) {
                 {"inline_keyboard", {
                     {
                         {{"text", "➕ Add Assistant (@" + ass_user + ")", "url", "https://t.me/" + ass_user + "?startgroup=true"}},
-                        {{"text", "💬 Support", "url", "https://t.me/Z0iiw"}}
+                        {{"text", "💬 Support", "url", "https://t.me/myanmar_music_bot2027"}}
                     }
                 }}
             };
@@ -935,7 +927,7 @@ void BotEngine::HandleUserbotJoin(const TgMessage& msg) {
             {"inline_keyboard", {
                 {
                     {{"text", "➕ Add Assistant (@" + ass_user + ")", "url", "https://t.me/" + ass_user + "?startgroup=true"}},
-                    {{"text", "💬 Support", "url", "https://t.me/Z0iiw"}}
+                    {{"text", "💬 Support", "url", "https://t.me/myanmar_music_bot2027"}}
                 }
             }}
         };
@@ -2253,7 +2245,7 @@ void BotEngine::OnTrackEnded(int64_t chat_id) {
                     {"url", autoTrack->url},
                     {"title", autoTrack->title},
                     {"duration", autoTrack->duration},
-                    {"by", "🎵 Autoplay"}
+                    {"by", "💕 Autoplay"}
                 });
                 tg_->SendMessage(chat_id, now_playing, MakePlayerMarkup(chat_id, 0, 240));
             }
