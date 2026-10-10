@@ -71,8 +71,8 @@ void LocalizationManager::InitLocales() {
     }
 
     if (!loaded) {
-        strings_["en"]["welcome"] = "<blockquote>🎵 <b>Welcome to TinaMusic (C++ Engine)</b></blockquote>";
-        strings_["en"]["help"] = "<blockquote>📖 <b>TinaMusic C++ Commands:</b></blockquote>";
+        strings_["en"]["welcome"] = "<blockquote>🎵 <b>Welcome to MyanmarMusic (C++ Engine)</b></blockquote>";
+        strings_["en"]["help"] = "<blockquote>📖 <b>MyanmarMusic C++ Commands:</b></blockquote>";
         strings_["en"]["ping_start"] = "<blockquote>🏓 <b><u>ᴘɪηɢɪηɢ...</u></b>\n\n<i>ᴄʜєᴄᴋɪηɢ ʟᴧᴛєηᴄʏ &amp; sʏsᴛєᴍ sᴛᴧᴛs</i></blockquote>";
         strings_["en"]["start_group"] = "<b>💫 I’m here!</b> Try a command… if you think you can handle me 😉";
     }
